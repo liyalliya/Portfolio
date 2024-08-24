@@ -1,0 +1,196 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+}
+
+.section {
+    height: 100vh;
+    margin: 0; 
+}
+
+#home-section {
+    position: relative; 
+    background-color: #191919; 
+    scroll-behavior: smooth;
+}
+
+#about-section {
+    position: relative; 
+    background-color: #191919; 
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #f8e8ca;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.font-title {
+    font-family: 'Hobo';
+    font-weight: 400;
+    font-style: normal;
+    color: #f8e8ca;
+    font-size: 6vw; 
+    text-align: center;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    line-height: 1.2; 
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+#rounded-rectangle {
+    width: 60vw; 
+    height: 3.5vw; 
+    border: 2px solid #f8e8ca;
+    border-radius: 40px; 
+    position: absolute;
+    left: 50%;
+    top: 49.5%; 
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#scroll-text {
+    font-size: 4vw; 
+    font-style: italic;
+    transform: translateX(100%);
+    animation: my-animation 15s linear infinite;
+}
+
+@keyframes my-animation {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@media (max-width: 600px) {
+    .font-title {
+        font-size: 22vw;
+        line-height: 1.2;
+    }
+
+    hr {
+        width: 90vw; 
+        max-width: 90%; 
+    }
+
+    .line-top {
+        top: 9%; 
+    }
+    .line-bottom {
+        bottom: 9%; 
+    }
+
+    #scroll-text {
+        font-size: 1.5vw;
+        margin-top: 2px;
+    }
+
+    .navbar-brand img {
+        vertical-align: middle; /* Align logo in the middle of its container */
+        margin-top: 20px;
+        margin-left: 25px; /* Adjust for fine-tuning */
+    } 
+
+    .welcome {
+        color: #f8cb74;
+        font-size: small;
+        margin-right: 35px;
+        margin-top: 35px; 
+    }
+
+
+
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .font-title {
+        font-size: 20.5vw; 
+        line-height: 1.15; 
+    }
+
+    hr {
+        width: 85vw; 
+        max-width: 85%; 
+    }
+
+    .line-top {
+        top: 8%; 
+    }
+    .line-bottom {
+        bottom: 8%; 
+    }
+    
+
+    #scroll-text {
+        font-size: 1.5vw; 
+        margin-top: 4px;
+    }
+
+    .navbar-brand img {
+        vertical-align: middle; /* Align logo in the middle of its container */
+        margin-top: 20px;
+        margin-left: 65px; /* Adjust for fine-tuning */
+    } 
+
+    .welcome {
+        color: #f8cb74;
+        font-size: small;
+        margin-right: 75px;
+        margin-top: 35px; 
+    }
+}
+
+@media (min-width: 1025px) {
+    .font-title {
+        font-size: 18.5vw; 
+        line-height: 1.15; 
+    }
+
+    hr {
+        width: 92vw; 
+        max-width: 100%; 
+    }
+
+    .line-top {
+        top: 7.5%; 
+    }
+    .line-bottom {
+        bottom: 7.5%; 
+    }
+    .line-border {
+        top: 0; 
+    }
+
+    #scroll-text {
+        font-size: 1.5vw; 
+        margin-top: 6px;
+    }
+
+    .navbar-brand img {
+        vertical-align: middle; /* Align logo in the middle of its container */
+        margin-top: 15px;
+        margin-left: 75px; /* Adjust for fine-tuning */
+    } 
+    
+    .welcome {
+        color: #f8cb74;
+        font-size: small;
+        margin-right: 75px;
+        margin-top: 35px; 
+    }
+
+
+    
+
+}
