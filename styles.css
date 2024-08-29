@@ -661,6 +661,11 @@ hr {
     z-index: 1000;
 }
 
+.btn.download-resume svg {
+    fill: #f8e8ca;
+}
+
+
 .download-resume {
     position: absolute;
     top: 2.5%;
@@ -809,7 +814,7 @@ hr {
 
   .card-header {
     font-family: The Seasons;
-    border: 1px solid #f8e8ca;
+    border-bottom: 1px solid #f8e8ca;
     color: #f8e8ca;
     font-style: italic;
   }
