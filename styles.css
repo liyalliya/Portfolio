@@ -42,7 +42,7 @@ body, html {
     height: 6vh;
     padding: 25px;
     border-radius: 90px;
-    z-index: 10000;
+    z-index: 1001;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -713,7 +713,7 @@ hr {
 
 
 .proj-card {
-    width: 400px;
+    width: 425px;
     height: 23vh;
     margin-bottom: 10px;
     border-radius: 27px; 
@@ -731,6 +731,8 @@ hr {
 }
 
 .certificates-label {
+    font-family: The Seasons;
+    font-size: 1.2vw;
     position: absolute;
     top: 36%;
     left: 3.6%;
@@ -740,9 +742,11 @@ hr {
 }
 
 .certificates {
+    font-family: The Seasons;
+    font-size: 1.2vw;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    top: 42%;
+    left: 4%;
     color: #f8e8ca;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.51);
 }
@@ -805,6 +809,7 @@ hr {
 
   .card-header {
     font-family: The Seasons;
+    border: 1px solid #f8e8ca;
     color: #f8e8ca;
     font-style: italic;
   }
